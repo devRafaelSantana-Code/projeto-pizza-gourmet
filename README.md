@@ -12,6 +12,8 @@
 
 Aplicação de e-commerce desenvolvida para simular uma experiência de compra digital de pizzas gourmet, com catálogo interativo, personalização de produtos e fluxo de checkout.
 
+**🌐 Visualização online:** [Acessar Pizzaria Digital](https://projeto-pizza-gourmet.vercel.app/)
+
 ## 📖 Sobre o projeto
 
 O **Pizzaria Digital** é uma aplicação de comércio eletrônico desenvolvida com HTML5, CSS3 e JavaScript Vanilla, baseada em desafios práticos da plataforma B7Web e posteriormente expandida com funcionalidades adicionais e aprimoramentos de interface.
@@ -249,5 +251,5 @@ Estudante de Engenharia da Computação, com foco em desenvolvimento Full-Stack 
 ---
 
 <p align="center">
-  Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, JavaScript, manipulação do DOM e desenvolvimento de interfaces responsivas.
+  Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, CSS Grid, Flexbox e desenvolvimento de interfaces responsivas.
 </p>
