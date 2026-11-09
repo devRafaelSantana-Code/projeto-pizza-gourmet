@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="utf-8" />
+      <title>Pizza Gourmet - Premium Edition</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://googleapis.com" />
+      <link rel="preconnect" href="https://gstatic.com" crossorigin />
+      <link
+         href="https://googleapis.com/css?family=Cinzel:400,600|Inter:300,400,600,700&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body class="dark-theme">
+      <div class="models">
+         <div class="pizza-item">
+            <a href="">
+               <div class="pizza-item--img"><img src="" alt="Pizza" /></div>
+               <div class="pizza-item--add">+</div>
+            </a>
+            <div class="pizza-item--price">R$ --</div>
+            <div class="pizza-item--name">--</div>
+            <div class="pizza-item--desc">--</div>
+         </div>
+         <div class="cart--item">
+            <img src="" alt="Pizza no Carrinho" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+               <button class="cart--item-qtmenos">-</button>
+               <div class="cart--item--qt">1</div>
+               <button class="cart--item-qtmais">+</button>
+            </div>
+         </div>
+      </div>
+
+      <header>
+         <!-- Logótipo Premium Alinhado à Esquerda -->
+         <div class="header-logo"><span>PIZZA</span>GOURMET</div>
+
+         <!-- Elementos de Controle Alinhados à Direita -->
+         <div class="header-controls">
+            <button class="theme-toggle" aria-label="Mudar tema">🌓</button>
+            <div class="menu-openner"><span>0</span>🛒</div>
+         </div>
+      </header>
+
+      <main>
+         <div class="main-header">
+            <h1>Cardápio Exclusivo</h1>
+            <p class="subtitle">
+               Uma experiência gastronômica minimalista e sofisticada
+            </p>
+         </div>
+         <div class="pizza-area"></div>
+      </main>
+
+      <aside>
+         <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Sua Seleção</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+               <div class="cart--totalitem subtotal">
+                  <span>Subtotal</span>
+                  <span>R$ --</span>
+               </div>
+               <div class="cart--totalitem desconto">
+                  <span>Desconto (-10%)</span>
+                  <span>R$ --</span>
+               </div>
+               <div class="cart--totalitem total big">
+                  <span>Total</span>
+                  <span>R$ --</span>
+               </div>
+               <div class="cart--finalizar">Finalizar o pedido</div>
+            </div>
+         </div>
+      </aside>
+
+      <div class="pizzaWindowArea">
+         <div class="pizzaWindowBody">
+            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div class="pizzaBig">
+               <img src="" alt="Pizza Expandida" />
+            </div>
+            <div class="pizzaInfo">
+               <h1>--</h1>
+               <div class="pizzaInfo--desc">--</div>
+               <div class="pizzaInfo--sizearea">
+                  <div class="pizzaInfo--sector">Selecione a Assinatura</div>
+                  <div class="pizzaInfo--sizes">
+                     <div data-key="0" class="pizzaInfo--size">
+                        INDIVIDUAL <span>--</span>
+                     </div>
+                     <div data-key="1" class="pizzaInfo--size">
+                        COMPARTILHAR <span>--</span>
+                     </div>
+                     <div data-key="2" class="pizzaInfo--size selected">
+                        EXCLUSIVA <span>--</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="pizzaInfo--pricearea">
+                  <div class="pizzaInfo--sector">Valor da Experiência</div>
+                  <div class="pizzaInfo--price">
+                     <div class="pizzaInfo--actualPrice">R$ --</div>
+                     <div class="pizzaInfo--qtarea">
+                        <button class="pizzaInfo--qtmenos">-</button>
+                        <div class="pizzaInfo--qt">1</div>
+                        <button class="pizzaInfo--qtmais">+</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="pizzaInfo--addButton">Adicionar à Seleção</div>
+               <div class="pizzaInfo--cancelButton">Voltar ao Cardápio</div>
+            </div>
+         </div>
+      </div>
+
+      <div class="checkoutWindowArea" style="display: none">
+         <div class="checkoutWindowBody">
+            <h2>Pedido Confirmado</h2>
+            <p class="checkoutSubtitle">
+               Sua experiência gastronômica começará em breve.
+            </p>
+            <div class="checkoutSummary"></div>
+            <div class="checkoutActions">
+               <button class="checkoutConfirmBtn">Confirmar e Pagar</button>
+               <button class="checkoutCancelBtn">Modificar Pedido</button>
+            </div>
+         </div>
+      </div>
+
+      <script src="pizzas.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
